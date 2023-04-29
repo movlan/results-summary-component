@@ -1,0 +1,57 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set font-size to 100% */
+html {
+  font-size: 62.5%;
+}
+
+/* Set line-height to 1.5 */
+body {
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul and ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Reset anchor text color */
+a:link,
+a:visited {
+  color: inherit;
+}
